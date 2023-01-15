@@ -16,7 +16,7 @@ public class EmoticonKeyboard extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new FlowLayout());
 
-        // Crear los botones deseados y los añade al teclado al teclado
+        // Crea los botones deseados y los añade  al teclado
         for (int i = 0; i < emoticons.length; i++) {
             buttons[i] = new JButton(emoticons[i]);
             add(buttons[i]);
